@@ -1,0 +1,216 @@
+
+header{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: start; 
+    align-items: center;
+    background-color: orangered;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    
+}
+
+header div img{
+    width: 10%;
+}
+
+nav{
+    background-color: rgb(57, 18, 18);
+    border-radius: 0 0 10px 10px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 10px;
+    list-style-type: none; 
+
+}
+
+
+
+nav ul li a {
+    text-decoration: none; 
+    color: #ffffff; 
+    margin: 0;
+    padding: 0 60px;   
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+    background-color: #fff; 
+    color: rgb(57, 18, 18); 
+    border-radius: 20px;
+    padding: 0 60px;
+    
+}
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+section{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;   
+}
+
+section div img{
+    width: 50%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 40px;
+}
+
+.content:hover{
+    background-color: #f3ad3d7d;
+    border-radius: 5px;   
+}
+
+section div button{
+    width: 70%;
+    border-radius: 20px;
+    border: none;
+    background-color: orangered;
+    cursor: pointer;
+    margin: 10px;
+    padding: 13px;
+
+}
+
+section div button:hover{
+    width: 70%;
+    border-radius: 20px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    margin: 10px;
+    padding: 13px;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+form{  
+    width: 38%;
+    background-color: lightsalmon;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+input {
+    height: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 0 50px 0 0 ;
+    
+}
+.btn {
+    width: 90%;
+    background-color: orange;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+.register-link{
+    display: block;
+    text-align: center;
+}
+
+footer{
+   
+    background-color: orangered;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+.table{
+
+    width: 90%;
+    border: 1px solid;
+    color: black;
+    margin: 67px 0 10px 20px ;
+}
+
+.btnc{
+    width: 35%;
+    border-radius: 30px;
+}
+
+.btnc:hover{
+    width: 35%;
+    border-radius: 30px;
+    background-color: orange;
+
+}
+
+.btna{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120%;
+    margin-left: -55px;
+    padding: 0;
+}
+
+
+.links{
+    width: 600px;
+    background-color: lightsalmon;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links ol li a{
+    text-decoration: none;
+    color: black;
+}
+
+.links ol li a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: orangered;
+}
